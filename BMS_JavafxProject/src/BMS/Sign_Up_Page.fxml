@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<FlowPane alignment="TOP_CENTER" orientation="VERTICAL" prefHeight="500.0" prefWidth="500.0" vgap="50.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BMS.Sign_Up_Page">
+   <children>
+      <FlowPane alignment="CENTER" columnHalignment="CENTER" orientation="VERTICAL" prefHeight="90.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="94.0" fitWidth="60.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../res/manipal%20logo.jpg" />
+               </image>
+               <FlowPane.margin>
+                  <Insets />
+               </FlowPane.margin>
+            </ImageView>
+            <Label text="Manipal Central Bank" textFill="#160d5e">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+         <FlowPane.margin>
+            <Insets top="10.0" />
+         </FlowPane.margin>
+      </FlowPane>
+      <FlowPane alignment="CENTER" columnHalignment="CENTER" orientation="VERTICAL" prefHeight="300.0" prefWidth="200.0" vgap="20.0">
+         <children>
+            <TextField fx:id="tfName" promptText="Name" />
+            <TextField fx:id="tfMobNo" promptText="Mobile Number" />
+            <TextField fx:id="tfUsername" promptText="Username" />
+            <TextField fx:id="tfPassword" promptText="Password" />
+            <Label fx:id="lbMessage" textFill="#ff000d" />
+            <Button fx:id="btnSignUp" onAction="#PressSignUp" mnemonicParsing="false" text="Sign Up" />
+            <Button fx:id="btnBack" onAction="#PressBack" mnemonicParsing="false" text="Back">
+               <graphic>
+                  <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../res/Back_Button.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+         </children>
+      </FlowPane>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</FlowPane>

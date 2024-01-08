@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<FlowPane alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="600.0" prefWidth="600.0" vgap="100.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BMS.Deposit">
+   <children>
+      <FlowPane alignment="CENTER" columnHalignment="CENTER" orientation="VERTICAL" prefHeight="150.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="94.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../res/manipal%20logo.jpg" />
+               </image>
+               <FlowPane.margin>
+                  <Insets />
+               </FlowPane.margin>
+            </ImageView>
+            <Label text="Manipal Central Bank" textFill="#160d5e">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+         <FlowPane.margin>
+            <Insets top="30.0" />
+         </FlowPane.margin>
+      </FlowPane>
+      <FlowPane alignment="CENTER" columnHalignment="CENTER" orientation="VERTICAL" prefHeight="100.0" prefWidth="200.0">
+         <FlowPane.margin>
+            <Insets bottom="30.0" />
+         </FlowPane.margin>
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/GIFs/fighting%20-%20gif.gif" />
+               </image>
+            </ImageView>
+         </children>
+      </FlowPane>
+   </children>
+   <padding>
+      <Insets top="8.0" />
+   </padding>
+</FlowPane>
